@@ -1,6 +1,6 @@
 import csv
 import random
-
+#function to read
 def load_countries_from_csv(filename):
     countries = []
     with open(filename, newline='', encoding='utf-8') as csvfile:
